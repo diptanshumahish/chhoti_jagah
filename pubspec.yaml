@@ -1,0 +1,50 @@
+name: chhoti_jagah
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  cloud_firestore: ^6.0.0
+  firebase_auth: ^6.0.0
+  firebase_core: ^4.0.0
+  firebase_database: ^12.0.0
+  firebase_storage: ^13.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  
+  fonts:
+    - family: Louis George Cafe
+      fonts:
+        - asset: assets/fonts/Louis George Cafe.ttf
+        - asset: assets/fonts/Louis George Cafe Light.ttf
+          weight: 300
+        - asset: assets/fonts/Louis George Cafe Italic.ttf
+          style: italic
+        - asset: assets/fonts/Louis George Cafe Light Italic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Louis George Cafe Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Louis George Cafe Bold Italic.ttf
+          weight: 700
+          style: italic
+    
+    - family: LionClub
+      fonts:
+        - asset: assets/fonts/lionclub.ttf
