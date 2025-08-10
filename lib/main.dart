@@ -1,10 +1,10 @@
+import 'package:chhoti_jagah/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'state_management/index.dart';
 import 'config/app_theme.dart';
-import 'screens/home_screen.dart';
+import 'screens/index.dart';
 
 void main() {
   runApp(const ProviderScope(child: MultiFirebaseApp()));
@@ -33,16 +33,16 @@ class MultiFirebaseApp extends ConsumerWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: const [
-        Locale('en'), // English
-        Locale('hi'), // Hindi
-        Locale('kn'), // Kannada
-        Locale('te'), // Telugu
-        Locale('ta'), // Tamil
-        Locale('mr'), // Marathi
-        Locale('or'), // Odia
-        Locale('bn'), // Bangla
+        Locale('en'), 
+        Locale('hi'), 
+        Locale('kn'), 
+        Locale('te'), 
+        Locale('ta'), 
+        Locale('mr'), 
+        Locale('or'), 
+        Locale('bn'), 
       ],      
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }

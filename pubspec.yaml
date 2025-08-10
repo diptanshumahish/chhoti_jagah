@@ -18,6 +18,11 @@ dependencies:
     sdk: flutter
   flutter_riverpod: ^2.6.1
   intl: ^0.19.0
+  shared_preferences: ^2.5.3
+  permission_handler: ^11.3.1
+  geolocator: ^13.0.1
+  google_sign_in: ^6.2.1
+  phosphor_flutter: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -27,6 +32,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  
+  assets:
+    - assets/pngs/
+    - assets/logomain.png
   
   fonts:
     - family: Louis George Cafe
@@ -48,3 +57,4 @@ flutter:
     - family: LionClub
       fonts:
         - asset: assets/fonts/lionclub.ttf
+

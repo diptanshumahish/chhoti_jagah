@@ -46,12 +46,12 @@ class FirebaseProjectConfig {
 class MultiFirebaseConfig {
   static const FirebaseProjectConfig userDataProject = FirebaseProjectConfig(
     name: userDataProjectName,
-    apiKey: "AIzaSyDJkgaLYlxOWrqMiA6V3qLTyPGGccqGTV8",
+    apiKey: "AIzaSyCGvkL-kLslL8vEigoPZh0MpXVYy69-ZiY",
     authDomain: "chhoti-jagah-main.firebaseapp.com",
     projectId: "chhoti-jagah-main",
     storageBucket: "chhoti-jagah-main.firebasestorage.app",
     messagingSenderId: "5283873903",
-    appId: "1:5283873903:web:f88c8a8944c2baa3e4b99a",
+    appId: "1:5283873903:android:40351662b84b3ddee4b99a",
     measurementId: "G-EQY25E7VR9",
   );
 
